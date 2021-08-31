@@ -19,5 +19,5 @@ jobs:
     - name: Install dependencies
       run: dotnet tool restore
     - name: Run
-      run: dotnet tool run Web.Ping --host 192.30.242.29
+      run: dotnet tool run Web.Ping --host loadopen.top
       
